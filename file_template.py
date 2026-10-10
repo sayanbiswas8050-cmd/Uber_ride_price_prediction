@@ -22,6 +22,7 @@ list_of_files = [
     'app.py',
     'exception.py',
     'logger.py',
+    'setup.py',
     'requirements.txt',
     'templates/index.html'
 ]
@@ -40,3 +41,6 @@ for filepath in list_of_files:
         with open(filepath, 'w') as f:
             pass
         logger.info(f'Creating empty file: {filepath}')
+    
+    else:
+        logger.info(f'{filename} is already exists' )

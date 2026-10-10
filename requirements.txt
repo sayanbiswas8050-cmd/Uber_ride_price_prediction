@@ -9,4 +9,6 @@ xgboost
 pydantic
 fastapi
 uvicorn
-
+pyYAML
+-e . # Whenever you edit, add, or delete functions inside your src/ folder, your Python 
+    # code/notebook immediately reflects those changes without having to run pip install again.

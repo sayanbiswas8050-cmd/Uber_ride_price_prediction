@@ -1,0 +1,7 @@
+README.md
+setup.py
+ubar_ride_price_prediction.egg-info/PKG-INFO
+ubar_ride_price_prediction.egg-info/SOURCES.txt
+ubar_ride_price_prediction.egg-info/dependency_links.txt
+ubar_ride_price_prediction.egg-info/requires.txt
+ubar_ride_price_prediction.egg-info/top_level.txt

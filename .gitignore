@@ -5,3 +5,4 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 logs
+ubar_ride_price_prediction.egg-info
