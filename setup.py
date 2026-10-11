@@ -6,6 +6,7 @@ def get_requirements(file_path: str):
     requirements = []
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()
+        
         requirements = [req.replace("\n", "").strip() for req in requirements]
 
         # Filter out '-e .' so it is not passed to install_requires
