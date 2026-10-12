@@ -1,0 +1,6 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion  # folder where the raw csv is stored
+  source_URL: https://github.com/sayanbiswas8050-cmd/Uber_ride_price_prediction/raw/refs/heads/main/Bookings(1).csv
+  local_data_file: artifacts/data_ingestion/Bookings(1).csv

@@ -1,0 +1,11 @@
+COLUMNS:
+  Date: string
+  Time: string
+  Vehicle_Type: string
+  Weather: string
+  Pickup_Location: string
+  Drop_Location: string
+  Ride_Distance: float
+  Booking_Value: float
+
+TARGET: Booking_Value
