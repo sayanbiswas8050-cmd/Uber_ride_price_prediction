@@ -5,17 +5,18 @@ from logger import logging
 logger = logging.getLogger(__name__)
 
 list_of_files = [
-    'src/__ini__.py',
+    'src/__init__.py',
     'src/components/__init__.py',
-    'src/utils/__ini__.py',
-    'src/utils/common.py',
-    'src/config/__ini__.py',
+    'src/utils/__init__.py',
+    'src/utils/utils.py',
+    'src/config/__init__.py',
     'src/config/configuration.py',
-    'src/pipeline/__ini__.py',
-    'src/entity/__ini__.py',
+    'src/pipeline/__init__.py',
+    'src/entity/__init__.py',
     'src/entity/config_entity.py',
     'src/constants/__init__.py',
     'config/config.yaml',
+    'data'
     'params.yaml',
     'schema.yaml',
     'main.py',
