@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 
 from src.constants import CONFIG_FILE_PATH, SCHEMA_FILE_PATH,PARAMS_FILE_PATH
 from src.utils.utils import read_yaml, create_directories
-from exception import CustomException
-from logger import logging
+from src.exception import CustomException
+from src.logger import logging
 
 logger = logging.getLogger(__name__)
 

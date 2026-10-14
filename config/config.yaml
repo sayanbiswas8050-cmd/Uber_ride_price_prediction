@@ -1,19 +1,20 @@
 # download zip file data and extract the files
 
-# artifacts_root: artifacts
-# data_ingestion:
-#   root_dir: artifacts/data_ingestion
-#   source_URL: https://github.com/sayanbiswas8050-cmd/Uber_ride_price_prediction/raw/refs/heads/main/data.zip
-#   local_data_file: artifacts/data_ingestion/data.zip 
-#   extract_dir: artifacts/data_ingestion
-
-
-## raw, train,test csv file store
 artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  local_source_path: data/Bookings(1).csv      # Path to your local CSV file
-  raw_data_file: artifacts/data_ingestion/raw.csv
-  train_data_file: artifacts/data_ingestion/train.csv
-  test_data_file: artifacts/data_ingestion/test.csv
+  source_URL: https://github.com/sayanbiswas8050-cmd/Uber_ride_price_prediction/raw/2c66d78258cc7ad0113757d90c571221c30d6577/data/Uber_ride_booking.zip
+  local_data_file: artifacts/data_ingestion/data.zip 
+  extract_dir: artifacts/data_ingestion
+
+
+## raw, train,test csv file store
+# artifacts_root: artifacts
+
+# data_ingestion:
+#   root_dir: artifacts/data_ingestion
+#   local_source_path: data/Bookings(1).csv      # Path to your local CSV file
+#   raw_data_file: artifacts/data_ingestion/raw.csv
+#   train_data_file: artifacts/data_ingestion/train.csv
+#   test_data_file: artifacts/data_ingestion/test.csv
