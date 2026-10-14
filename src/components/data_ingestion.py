@@ -45,13 +45,3 @@ class DataIngestion:
             logger.info(f"File '{extract_file_path.name}' is not a zip file. Ready for direct access at: {extract_file_path}")
 
 
-if __name__ == '__main__':
-    try:
-        config_manager = ConfigurationManager()
-        data_ingestion_config = config_manager.get_data_ingestion_config()
-        data_ingestion = DataIngestion(config=data_ingestion_config)
-        
-        data_ingestion.download_file()
-        data_ingestion.extract_zip_file()
-    except Exception as e:
-        raise CustomException(e, sys)
